@@ -72,12 +72,13 @@ main {
 /* HERO PART  */
 
 .hero-part {
+  position: relative;
   padding-top: 114px;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
   background-image: url('../imgs/hero-backround.png');
-  background-size: auto 352px;
+  background-size: 40vw 40vh;
   background-repeat: no-repeat;
-  background-position: bottom 80px right 200px;
+  background-position: bottom right;
 }
 
 .hero-box {
@@ -146,6 +147,7 @@ main {
   border: 2px solid #5B6074;
 }
 
+
 .hero-img {
   position: relative;
   right: -65.5px;
@@ -189,11 +191,10 @@ main {
 
 .main-features {
   background-image: url('../imgs/left-backround.png');
-  background-size: auto 352px;
+  background-size: 40vw 40vh;
   background-repeat: no-repeat;
-  background-position: bottom 149px left 200px;
-  padding-bottom: 149px;
-
+  background-position: bottom left 100px;
+  margin-bottom: 149px;
 }
 
 .main-features-box {
@@ -433,6 +434,7 @@ main {
 
 .asked-drop {
   display: none;
+  height: 256px;
   padding-top: 32px;
   padding-bottom: 19px;
 }
